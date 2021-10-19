@@ -7,7 +7,7 @@ subprojects {
     options.encoding = encoding
     options.debug = true
     options.release = 8
-    sourceCompatibility = 16
+    sourceCompatibility = 17
   }
   compileJava.options.debugOptions.debugLevel = "source,lines,vars"
 
@@ -15,7 +15,7 @@ subprojects {
 
   java {
     toolchain {
-      languageVersion = JavaLanguageVersion.of(16)
+      languageVersion = JavaLanguageVersion.of(17)
     }
   }
 
